@@ -15,7 +15,7 @@ enableRobotsTXT = true
 
 [params]
 author = "Aleksandr Tihomirov"
-intro = "Gopher & Blogger"
+intro = "Gopher & Blogger & Cloud Enthusiast"
 description = "There isn't a lot to say about me, but I love foxgirls & coding awesome things in golang."
 authorimage = "avatar.png"
 dateformat = "Jan 2, 2006"
