@@ -2,7 +2,7 @@ languageCode = "en-us"
 title = "Aleksandr Tihomirov"
 author = "Aleksandr Tihomirov"
 baseurl = "http://example.org/"
-theme = "hugo-goa"
+theme = "hugo-goa-dark"
 
 contentdir = "content"
 layoutdir = "layouts"
