@@ -1,0 +1,51 @@
+languageCode = "en-us"
+title = "Aleksandr Tihomirov"
+author = "Aleksandr Tihomirov"
+baseurl = "http://example.org/"
+theme = "hugo-goa"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+## Hugo Built-in Features
+disqusShortname = "zetasblog" # Comment out to disable Disqus.
+googleAnalytics = "UA-37091239-1"
+enableRobotsTXT = true
+
+[params]
+author = "Aleksandr Tihomirov"
+intro = "Gopher & Blogger"
+description = "There isn't a lot to say about me but my love for coding awesome things in Google Go."
+authorimage = "avatar.png"
+dateformat = "Jan 2, 2006"
+
+[params.social]
+github = "zet4"
+linkedin = "aleksandrtihomirov"
+twitter = "zetahunter"
+email = "my-name-is-zeta@and.my.foxgirlsare.sexy"
+
+## Extras
+[params.extra]
+copyright = "© 2017. Aleksandr Tihomirov. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+highlightjs = true
+poweredby = false
+
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "discord"
+    identifier = "discord"
+    weight = 300
+    url = "https://discord.gg/h5Aegcr"
