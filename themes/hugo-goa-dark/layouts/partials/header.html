@@ -23,17 +23,17 @@
 {{ if .Site.Params.extra.highlightjs }}<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">{{ end }}
 
 {{ if .Site.Params.extra.opengraph }}
+{{ with .Site.Params.authorimage }} <meta property="og:image" content="img/{{ . }}"> {{ end }}
 {{ if .Data.Pages }}
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ .Site.Title }}">
 <meta property="og:description" content="{{ .Site.Params.meta.description }}">
-{{ with .Site.Params.authorimage }} <meta property="og:image" content="img/{{ . }}"> {{ end }}
 {{ else }}
 <meta property="og:type" content="article">
 <meta property="og:title" content="{{ .Title }}">
 <meta property="og:description" content="{{ .Description }}">
 <meta property="og:article:published_time" content="{{ .Date.Format "2006-01-02" }}">
-<meta property="og:article:author:username">{{ .Site.Params.author }}</h1>
+<meta property="og:article:author:username" content="{{ .Site.Params.author }}">
 {{ $total := len .Params.tags }}{{ if gt $total 0 }}{{ $subtotal := sub $total 1 }}{{ range $i, $tag := sort $.Params.tags }}
 <meta property="og:article:tag" content="{{ $tag }}">{{ end }}{{ end }}{{ end }}{{ end }}
 
