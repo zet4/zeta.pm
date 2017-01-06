@@ -1,7 +1,11 @@
-{{ if .Data.Pages }}
+{{ if .IsHome }}
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ .Site.Title }}">
-    <meta property="og:description" content="{{ .Site.Params.meta.description }}">
+    <meta property="og:title" content="{{ .Site.Params.author }}">
+    <meta property="og:description" content="{{ .Site.Params.description }}">
+{{ else if .Data.Pages }}
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ .Site.Params.author }}">
+    <meta property="og:description" content="{{ .URL | humanize }}">
 {{ else }}
     <meta property="og:type" content="article">
     <meta property="og:title" content="{{ .Title }}">
