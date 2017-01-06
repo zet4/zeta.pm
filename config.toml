@@ -41,6 +41,11 @@ opengraph = true
     identifier = "blog"
     url = "/blog/"
 [[menu.main]]
+    name = "projects"
+    weight = 101
+    identifier = "projects"
+    url = "/projects/"
+[[menu.main]]
     name = "about"
     identifier = "about"
     weight = 200
