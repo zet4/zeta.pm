@@ -20,6 +20,9 @@ description = "There isn't a lot to say about me, but I love foxgirls & coding a
 authorimage = "avatar.png"
 dateformat = "Jan 2, 2006"
 
+[params.meta]
+theme-color = "#FFC107"
+
 [params.social]
 github = "zet4"
 linkedin = "aleksandrtihomirov"
