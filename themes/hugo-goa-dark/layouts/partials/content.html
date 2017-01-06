@@ -24,6 +24,13 @@
   </div>
 </section>
 <section id="tag-pane" class="row meta">
+  {{ with .Params.source }}
+  <div class="col-md-12">
+    <h5 class="text-center meta">
+      SOURCE AVAILABLE <a class="meta" href="{{ . }}">HERE</a>
+    </h5>
+  </div>
+  {{ end }}
   {{ if ne .Params.showpagemeta false }}
   <div class="col-md-12">
     <h6 class="text-right meta">
