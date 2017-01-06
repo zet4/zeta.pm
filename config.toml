@@ -1,7 +1,7 @@
 languageCode = "en-us"
 title = "Aleksandr Tihomirov"
 author = "Aleksandr Tihomirov"
-baseurl = "https://zeta.pm/"
+baseURL = "https://zeta.pm"
 theme = "hugo-goa-dark"
 
 contentdir = "content"
