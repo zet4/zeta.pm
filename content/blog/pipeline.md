@@ -1,4 +1,4 @@
-+++
+---
 comments = false
 draft = true
 categories = ["docker"]
@@ -10,6 +10,6 @@ source = "https://github.com/zet4/go-travis-docker-test"
 
 showcomments = true
 showpagemeta = true
-+++
+---
 
 TODO: WRITE THIS SHIT

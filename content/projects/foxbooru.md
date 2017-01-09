@@ -1,4 +1,4 @@
-+++
+---
 comments = false
 draft = true
 categories = ["golang"]
@@ -11,4 +11,4 @@ source = "https://github.com/foxbooru"
 
 showcomments = false
 showpagemeta = true
-+++
+---

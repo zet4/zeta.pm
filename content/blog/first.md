@@ -1,4 +1,4 @@
-+++
+---
 categories = ["coding"]
 comments = false
 date = "2016-10-02T15:59:13-04:00"
@@ -9,8 +9,7 @@ slug = ""
 tags = ["hugo", "caddy", "docker"]
 title = "New blog, who's dis"
 description = "Just an experiment."
-
-+++
+---
 
 This is a blog, hi.
 
