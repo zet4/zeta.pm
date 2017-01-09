@@ -1,15 +1,17 @@
 ---
-comments = false
-draft = true
-categories = ["docker"]
-tags = ["docker", "ci", "github"]
-date = "2017-01-04T13:57:46+02:00"
-title = "The poor man's CI pipeline"
-slug = ""
-source = "https://github.com/zet4/go-travis-docker-test"
+title: "The poor man's CI pipeline"
+slug: "poor-mans-ci"
+description: ""
+source: "https://github.com/zet4/go-travis-docker-test"
+date: "2017-01-04T13:57:46+02:00"
+categories: 
+  - coding
+tags:
+  - ci
+  - github
+  - docker
 
-showcomments = true
-showpagemeta = true
+draft: true
+showpagemeta: true
+showcomments: true
 ---
-
-TODO: WRITE THIS SHIT

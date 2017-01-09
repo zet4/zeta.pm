@@ -1,14 +1,18 @@
 ---
-comments = false
-draft = true
-categories = ["golang"]
-tags = []
-date = "2017-01-04T13:57:46+02:00"
-title = "Foxbooru"
-description = "purego microservice driven taggable image board"
-slug = ""
-source = "https://github.com/foxbooru"
+title: "Foxbooru"
+slug: "foxbooru"
+description: "purego microservice driven taggable image board"
+source: "https://github.com/foxbooru"
+date: "2017-01-04T13:57:46+02:00"
+categories: 
+  - coding
+tags:
+  - golang
+  - github
+  - microservices
+  - docker
 
-showcomments = false
-showpagemeta = true
+draft: true
+showpagemeta: true
+showcomments: true
 ---

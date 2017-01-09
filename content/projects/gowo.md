@@ -1,16 +1,18 @@
 ---
-comments = false
-draft = false
-categories = ["golang"]
-tags = []
-date = "2017-01-04T13:57:46+02:00"
-title = "owo.go/gowo"
-description = "purego CLI for owo.whats-th.is"
-slug = ""
-source = "https://github.com/whats-this/owo.go"
+title: "owo.go/gowo"
+slug: "gowo"
+description: "purego CLI for owo.whats-th.is"
+source: "https://github.com/whats-this/owo.go"
+date: "2017-01-04T13:57:46+02:00"
+categories: 
+  - coding
+tags:
+  - golang
+  - github
 
-showcomments = false
-showpagemeta = true
+draft: false
+showpagemeta: true
+showcomments: true
 ---
 
 Mostly a toy project for me to experiment with Viper / Cobra 12 factor CLI applications.
