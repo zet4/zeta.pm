@@ -4,7 +4,7 @@
 
 {{ with .Site.Params.extra }}
 {{ if .highlightjs }}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js" integrity="sha384-7MtlECGXfUXEssLl9UhZ1kgaGf1AhR2wgwqUqoVzLLtm2Bcdtzr3s/v506lo6W7F" crossorigin="anonymous"></script>
 <script type="text/javascript">
 hljs.initHighlightingOnLoad();
 </script>
@@ -12,7 +12,7 @@ hljs.initHighlightingOnLoad();
 {{ end }}
 
 {{ template "_internal/google_analytics_async.html" . }}
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
 </body>
