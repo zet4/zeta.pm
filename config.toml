@@ -1,60 +1,49 @@
-languageCode = "en-us"
-title = "Zeta's site thing"
 author = "Aleksandr Tihomirov"
 baseURL = "https://zeta.pm"
-theme = "hugo-goa-dark"
-
 contentdir = "content"
+disqusShortname = "zetasblog"
+enableRobotsTXT = true
+googleAnalytics = "UA-37091239-1"
+languageCode = "en-us"
 layoutdir = "layouts"
 publishdir = "public"
-
-## Hugo Built-in Features
-disqusShortname = "zetasblog" # Comment out to disable Disqus.
-googleAnalytics = "UA-37091239-1"
-enableRobotsTXT = true
-
+theme = "hugo-goa-dark"
+title = "Zeta's site thing"
+[[menu.main]]
+identifier = "discord"
+name = "discord"
+url = "https://discord.gg/h5Aegcr"
+weight = 300
+[[menu.main]]
+identifier = "about"
+name = "about"
+url = "/about/"
+weight = 200
+[[menu.main]]
+identifier = "projects"
+name = "projects"
+url = "/projects/"
+weight = 101
+[[menu.main]]
+identifier = "blog"
+name = "blog"
+url = "/blog/"
+weight = 100
 [params]
 author = "Aleksandr Tihomirov"
-intro = "Gopher & Blogger & Cloud Enthusiast"
-description = "There isn't a lot to say about me, but I love foxgirls & coding awesome things in golang."
 authorimage = "avatar.png"
 dateformat = "Jan 2, 2006"
-
+description = "There isn't a lot to say about me, but I love foxgirls & coding awesome things in golang."
+intro = "Gopher, Blogger & Cloud Enthusiast"
+[params.extra]
+copyright = "© 2015-2017. Aleksandr Tihomirov. [Most Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+highlightjs = true
+opengraph = true
+poweredby = false
 [params.meta]
 themecolor = "#FFC107"
-
 [params.social]
+email = "my-name-is-zeta@and.my.foxgirlsare.sexy"
 github = "zet4"
 linkedin = "aleksandrtihomirov"
 twitter = "zetahunter"
-email = "my-name-is-zeta@and.my.foxgirlsare.sexy"
-
-## Extras
-[params.extra]
-copyright = "© 2015-2017. Aleksandr Tihomirov. [Most Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
-highlightjs = true
-poweredby = false
-opengraph = true
-
-
-## Main Menu
-[[menu.main]]
-    name = "blog"
-    weight = 100
-    identifier = "blog"
-    url = "/blog/"
-[[menu.main]]
-    name = "projects"
-    weight = 101
-    identifier = "projects"
-    url = "/projects/"
-[[menu.main]]
-    name = "about"
-    identifier = "about"
-    weight = 200
-    url = "/about/"
-[[menu.main]]
-    name = "discord"
-    identifier = "discord"
-    weight = 300
-    url = "https://discord.gg/h5Aegcr"
