@@ -4,7 +4,7 @@ title = "Hey there"
 draft = false
 +++
 
-### I'm **Aleksandr Tihomirov**, a **Golang backend developer** and **Cloud enthusiast** based in San Diego, California.
+### I'm **Aleksandr Tihomirov**, a **Golang backend developer** and **Cloud enthusiast** based in Europe.
 
 Today I engineer and design apps and websites from the ground up using Go for backend and Vue.js for frontend.
 
