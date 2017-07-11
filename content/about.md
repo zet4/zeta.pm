@@ -1,9 +1,9 @@
 +++
 date = "2016-10-02T22:55:05-04:00"
 title = "Hey there"
-draft = false
-+++
+type = "page"
 
++++
 ### I'm **Aleksandr Tihomirov**, a **Golang backend developer** and **Cloud enthusiast** based in Europe.
 
 Today I engineer and design apps and websites from the ground up using Go for backend and Vue.js for frontend.

@@ -1,58 +1,56 @@
-title = "Aleksandr Tihomirov"
 baseURL = "https://zeta.pm"
-tags = ["portfolio", "golang", "blog"]
-languageCode = "en-us"
-config = "config.toml"
-theme = "osprey-fork"
 canonifyURLS = true
-googleAnalytics = "UA-37091239-1"
-disqusShortname = "zetasblog"
+config = "config.toml"
 disableKinds = ["taxonomy", "taxonomyTerm"]
-
+disqusShortname = "zetasblog"
+googleAnalytics = "UA-37091239-1"
+languageCode = "en-us"
+tags = ["portfolio", "golang", "blog"]
+theme = "osprey-fork"
+title = "Aleksandr Tihomirov"
+[[menu.main]]
+identifier = "discord"
+name = "Discord"
+url = "https://discord.gg/h5Aegcr"
+weight = 5
+[[menu.main]]
+name = "Contact"
+url = "/#contact"
+weight = 4
+[[menu.main]]
+name = "Blog"
+url = "/#blog"
+weight = 3
+[[menu.main]]
+name = "Work"
+url = "/#work"
+weight = 2
+[[menu.main]]
+name = "About"
+url = "/#about"
+weight = 1
 [params]
-    tagline = "Aleksandr Tihomirov"
-    author = "Aleksandr Tihomirov"
-    description = "Golang backend developer and Cloud enthusiast based in Europe. I enjoy using multiple tools to engineer and build powerful websites and apps."
-    authorimage = "/images/gopher.png"
-    logoBig = "/images/gopher.png"
-    logoSmall = "/images/gopher.png"
-    dateformat = "Jan 2, 2006"
-    intro = "Gopher, Blogger & Cloud Enthusiast"
-    favicon = "favicon.ico"
-    opengraphImage = "/images/gopher.png"
-    email = "me@zeta.pm"
-    github = "zet4"
-    linkedin = "aleksandrtihomirov"
-    twitter = "ZetaFoxgirl"
-    googleTagManager = ""
-    highlightJS = true
-    copyright = true
-    credit = true
-    customCSS = false
-    cacheBustCSS = false
-    cacheBustJS = false
-    ajaxFormspree = true
-
+ajaxformspree = true
+author = "Aleksandr Tihomirov"
+authorimage = "/images/gopher.png"
+cachebustcss = false
+cachebustjs = false
+copyright = true
+credit = true
+customcss = false
+dateformat = "Jan 2, 2006"
+description = "Golang backend developer and Cloud enthusiast based in Europe. I enjoy using multiple tools to engineer and build powerful websites and apps."
+email = "me@zeta.pm"
+favicon = "favicon.ico"
+github = "zet4"
+googletagmanager = ""
+highlightjs = true
+intro = "Gopher, Blogger & Cloud Enthusiast"
+linkedin = "aleksandrtihomirov"
+logobig = "/images/gopher.png"
+logosmall = "/images/gopher.png"
+opengraphimage = "/images/gopher.png"
+tagline = "Aleksandr Tihomirov"
+twitter = "ZetaFoxgirl"
 [permalinks]
-    gallery = "/" # Redirect gallery index to home page
-[[menu.main]]
-    name = "About"
-    url  = "/#about"
-    weight = 1
-[[menu.main]]
-    name = "Work"
-    url  = "/#work"
-    weight = 2
-[[menu.main]]
-    name = "Blog"
-    url  = "/#blog"
-    weight = 3
-[[menu.main]]
-    name = "Contact"
-    url  = "/#contact"
-    weight = 4
-[[menu.main]]
-    identifier = "discord"
-    name = "discord"
-    url = "https://discord.gg/h5Aegcr"
-    weight = 5
+gallery = "/"
