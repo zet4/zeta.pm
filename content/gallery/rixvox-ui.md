@@ -1,11 +1,11 @@
 +++
 alt = ""
-color = ""
+color = "#000"
 date = "2017-07-23T17:20:21+00:00"
-draft = true
-image = ""
+image = "images/uploads/2017/07/23/RixVox_logo_120.png"
 link1 = ""
 link2 = ""
-title = "Rixvox UI"
+title = "RixVox Audio UI"
+type = ""
 
 +++
