@@ -9,10 +9,6 @@ tags = ["portfolio", "golang", "blog"]
 theme = "osprey-fork"
 title = "Aleksandr Tihomirov"
 [[menu.main]]
-name = "Keybase"
-url = "https://keybase.io/zeta"
-weight = 6
-[[menu.main]]
 identifier = "discord"
 name = "Discord"
 url = "https://discord.gg/h5Aegcr"
@@ -56,5 +52,6 @@ logosmall = "/images/gopher.png"
 opengraphimage = "/images/gopher.png"
 tagline = "Aleksandr Tihomirov"
 twitter = "ZetaFoxgirl"
+keybase = "zeta"
 [permalinks]
 gallery = "/"
