@@ -9,10 +9,14 @@ tags = ["portfolio", "golang", "blog"]
 theme = "osprey-fork"
 title = "Aleksandr Tihomirov"
 [[menu.main]]
+name = "Keybase"
+url = "https://keybase.io/zeta"
+weight = 6
+[[menu.main]]
 identifier = "discord"
 name = "Discord"
 url = "https://discord.gg/h5Aegcr"
-weight = 5
+weight = 6
 [[menu.main]]
 name = "Contact"
 url = "/#contact"
