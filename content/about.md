@@ -11,3 +11,5 @@ Today I engineer and design apps and websites from the ground up using Go for ba
 Also in my free time I maintain [DTinker](https://discord.gg/EDwd5wr) community and experiment with different technologies.
 
 View my code on [GitHub](https://github.com/zet4), connect with me on [LinkedIn](https://linkedin.com/in/aleksandrtihomirov), follow me on [Twitter](https://twitter.com/ZetaFoxgirl), and check out my work below.
+
+Oh and you can also find me on this [Mastodon](https://mstdn.io/@zeta) thing.
