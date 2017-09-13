@@ -1,0 +1,43 @@
+---
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: "{{ .Date }}"
+- name: image
+  label: Image
+  type: file
+  hidden: false
+  default: ''
+- name: alt
+  label: Alt
+  type: text
+  hidden: false
+  default: ''
+- name: color
+  label: Color
+  type: text
+  hidden: false
+  default: ''
+- name: link1
+  label: Link1
+  type: text
+  hidden: false
+  default: ''
+- name: link2
+  label: Link2
+  type: text
+  hidden: false
+  default: ''
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
