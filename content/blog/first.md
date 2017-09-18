@@ -2,7 +2,7 @@
 title: Caddy, Hugo & Github
 slug: building-this-blog
 description: Just an experiment.
-date: '2017-07-17T11:28:16.222Z'
+date: 2017-07-17 11:28:16 +0000
 categories:
 - coding
 tags:
